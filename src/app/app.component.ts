@@ -146,7 +146,7 @@ export class ConferenceApp {
   platformReady() {
     // Call any initial plugins when ready
     this.platform.ready().then(() => {
-      //this.splashScreen.hide();
+      this.splashScreen.hide();
     });
   }
 
